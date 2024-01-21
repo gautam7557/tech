@@ -1,3 +1,2 @@
 # tech
-this is my first project 
-gautamkumar
+this is my first project
