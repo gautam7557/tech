@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Medical Supply Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emergency Medical Supply Delivery System</h1>
+    </header>
+    
+    <main>
+        <section id="orderForm">
+            <h2>Place an Emergency Order</h2>
+            <form id="deliveryForm">
+                <label for="itemName">Item Name:</label>
+                <input type="text" id="itemName" required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" required>
+
+                <label for="deliveryAddress">Delivery Address:</label>
+                <textarea id="deliveryAddress" required></textarea>
+
+                <button type="button" onclick="placeEmergencyOrder()">Place Order</button>
+            </form>
+        </section>
+
+        <section id="status">
+            <h2>Order Status</h2>
+            <p id="statusMessage">No orders placed</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
